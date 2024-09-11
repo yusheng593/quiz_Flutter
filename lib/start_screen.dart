@@ -44,7 +44,10 @@ class StartScreen extends StatelessWidget {
             ),
             onPressed: startQuiz,
             icon: const Icon(Icons.arrow_right_alt),
-            label: const Text('Start Quiz'),
+            label: const Text(
+              '開始',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            ),
           ),
         ],
       ),
